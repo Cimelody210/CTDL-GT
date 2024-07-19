@@ -1,9 +1,22 @@
 #include <iostream>
 #include <math.h>
 #include <string.h>
+#include <FatReader.h>
+#include <avg/prmspace.h>
+#include <FlexiTimer.h>
+#include <CapacitiveSensor.h>
+
+#include "Charlie.h"
+
 #define long long ll;
 
 using namespace std;
+FatVolume volume;
+Charlie ch1 = charliel(3,0);
+Servo sv1;
+CapacitiveSensor cs1 = CapasitoveSensor(3,4);
+
+
 void SieveOfEratosthenes(int n)
 {
     bool prime[n+1];
@@ -30,6 +43,8 @@ long long find_smallest_source(long long M) {
 }
 int main()
 {
+    Serial.begin(100);
+    delay(2000);
     cout << "Welcome to the page " << endl ;
     return 0;
 }
