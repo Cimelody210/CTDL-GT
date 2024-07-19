@@ -30,6 +30,39 @@ void SieveOfEratosthenes(int n)
         }
     }
 }
+// Hàm kiểm tra số nguyên tố
+bool isPrime(int n) {
+    if (n <= 1) return false;
+    if (n <= 3) return true;
+    if (n % 2 == 0 || n % 3 == 0) return false;
+    for (int i = 5; i * i <= n; i += 6) {
+        if (n % i == 0 || n % (i + 2) == 0)
+            return false;
+    }
+    return true;
+}
+// Hàm kiểm tra số siêu nguyên tố
+bool isSuperPrime(int n) {
+    while (n > 0) {
+        int digit = n % 10;
+        if (!isPrime(digit)) {
+            return false;
+        }
+        n /= 10;
+    }
+    return true;
+}
+
+// Hàm tìm và in ra các số siêu nguyên tố trong khoảng [start, end]
+void findSuperPrimes(int start, int end) {
+    cout << "Cac so sieu nguyen to trong khoang [" << start << ", " << end << "] la:\n";
+    for (int i = start; i <= end; ++i) {
+        if (isPrime(i) && isSuperPrime(i)) {
+            cout << i << " ";
+        }
+    }
+    cout << endl;
+}
 // Hàm tìm số nguồn nhỏ nhất
 long long find_smallest_source(long long M) {
     long long smallest_source = M; 
