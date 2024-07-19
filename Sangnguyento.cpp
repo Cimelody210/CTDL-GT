@@ -1,3 +1,9 @@
+#include <iostream>
+#include <math.h>
+#include <string.h>
+#define long long ll;
+
+using namespace std;
 void SieveOfEratosthenes(int n)
 {
     bool prime[n+1];
@@ -10,4 +16,20 @@ void SieveOfEratosthenes(int n)
             }
         }
     }
+}
+// Hàm tìm số nguồn nhỏ nhất
+long long find_smallest_source(long long M) {
+    long long smallest_source = M; 
+    for (long long N = max(1LL, M - 162); N < M; N++) {
+        if (N + sum_of_digits(N) == M) {
+            smallest_source = N;
+            break;
+        }
+    }
+    return smallest_source;
+}
+int main()
+{
+    cout << "Welcome to the page " << endl ;
+    return 0;
 }
