@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\PC602\Downloads\djfhfh\HieuTrong123 Cplus main CTDLGT-2115207_DinhTrongHieu_Lab03\2115207_DinhTrongHieu_Lab03_Buoi4\Lab03_Bai2D\Lab03_Bai2D\thuvien.h(215,5): error C2084: function 'int File_Array(char *,sinhvien [],int &)' already has a body
+  (compiling source file 'Source.cpp')
+  C:\Users\PC602\Downloads\djfhfh\HieuTrong123 Cplus main CTDLGT-2115207_DinhTrongHieu_Lab03\2115207_DinhTrongHieu_Lab03_Buoi4\Lab03_Bai2D\Lab03_Bai2D\thuvien.h(38,5):
+  see previous definition of 'File_Array'
+  
+C:\Users\PC602\Downloads\djfhfh\HieuTrong123 Cplus main CTDLGT-2115207_DinhTrongHieu_Lab03\2115207_DinhTrongHieu_Lab03_Buoi4\Lab03_Bai2D\Lab03_Bai2D\menu.h(27,8): error C2264: 'File_Array': error in function definition or declaration; function not called
+  (compiling source file 'Source.cpp')
+  
