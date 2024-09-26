@@ -1,0 +1,53 @@
+﻿  Source.cpp
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(3,10): warning C4566: character represented by universal-character-name '\u1ECF' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(3,10): warning C4566: character represented by universal-character-name '\u01B0' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(3,10): warning C4566: character represented by universal-character-name '\u01A1' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(4,10): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(4,10): warning C4566: character represented by universal-character-name '\u1EEF' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(4,10): warning C4566: character represented by universal-character-name '\u1EC7' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(5,10): warning C4566: character represented by universal-character-name '\u1EEF' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(5,10): warning C4566: character represented by universal-character-name '\u1EC7' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(37,13): warning C4566: character represented by universal-character-name '\u1ECF' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(37,13): warning C4566: character represented by universal-character-name '\u01B0' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(37,13): warning C4566: character represented by universal-character-name '\u01A1' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(40,13): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(40,13): warning C4566: character represented by universal-character-name '\u1EEF' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(40,13): warning C4566: character represented by universal-character-name '\u1EC7' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(45,13): warning C4566: character represented by universal-character-name '\u1EEF' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(45,13): warning C4566: character represented by universal-character-name '\u1EC7' cannot be represented in the current code page (1252)
+  (compiling source file 'Source.cpp')
+  
+C:\Users\PC602\Downloads\Lab4\Bai1D\Bai1D\menu.h(26,6): warning C4101: 'filename': unreferenced local variable
+  (compiling source file 'Source.cpp')
+  
+  Bai1D.vcxproj -> C:\Users\PC602\Downloads\Lab4\Bai1D\x64\Debug\Bai1D.exe
